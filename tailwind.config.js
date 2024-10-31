@@ -82,7 +82,7 @@ export default {
             {},
         },
         ".p": {
-          "@apply text-xl tracking-tight leading-[1.30]": {},
+          "@apply tracking-tight leading-[1.30]": {},
         },
         ".span": {
           "@apply text-color-3 uppercase inline-block pt-2": {},

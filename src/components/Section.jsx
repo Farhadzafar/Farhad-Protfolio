@@ -7,7 +7,9 @@ export default function Section({
   return (
     <section
       id={has}
-      className={`w-full max-w-[1440px] my-0 mx-auto px-20 py-4 ${color} ${classes}`}
+      className={`w-full max-w-[1440px] my-0 mx-auto px-20  ${color} ${
+        classes ? classes : "py-4"
+      }`}
     >
       {children}
     </section>

@@ -10,7 +10,7 @@ export default function About() {
         <img className="w-[100%] rounded-full " src={farhad} alt="" />
       </div>
 
-      <div className="w-[70%] pr-20">
+      <div className="w-[70%] pr-20 pb-16 py-20">
         <span className=" span">About me</span>
         <h1 className=" h3">Who Am I?</h1>
         <p className=" p">
