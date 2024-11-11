@@ -4,9 +4,9 @@ import Button from "./Button";
 
 export default function Header() {
   return (
-    <div className="fixed top-0 left-0 bg-slate-50 border-b-[1px] border-color-3 flex justify-between content-center w-full z-40 px-10 py-4">
+    <div className="fixed top-0 left-0 bg-slate-50 border-b-[1px] border-color-3 flex justify-between items-center w-full z-40 px-10 py-4">
       <a href="#">
-        <img src={logo} alt="Farhad.io logo" className="w-[45px]" />
+        <img src={logo} alt="Farhad.io logo" className="w-[8rem]" />
       </a>
 
       <ul className="fixed top-10 flex  justify-center content-center  flex-col  lg:flex-row lg:static ">
