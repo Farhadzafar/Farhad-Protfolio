@@ -7,12 +7,26 @@ import {
   graphql,
   html,
   javascript,
+  aboutLogo,
   mu5,
   nextJs,
   node,
   python,
   react,
   sass,
+  skype,
+  spotify,
+  certificate,
+  certificate1,
+  certificate2,
+  certificate3,
+  certificate4,
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
 } from ".././assets/index";
 
 import {
@@ -232,4 +246,180 @@ const skills = [
   },
 ];
 
-export { head, toDo, icons, skills };
+// ? Eduction Card data
+
+const eductionData = [
+  {
+    logo: aboutLogo,
+    title: "JavaScript",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta deleniti, nobis et rem modi alias. Tempore odit ullam illum nostrum! Saepe dicta perferendis placeat quibusdam quia a sint ipsum! ",
+    linkName: "lest see this course",
+    link: "http://www.link.com",
+  },
+  {
+    logo: skype,
+    title: "HTML & CSS",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta deleniti, nobis et rem modi alias. Tempore odit ullam illum nostrum! Saepe dicta perferendis placeat quibusdam quia a sint ipsum! ",
+    linkName: "lest see this course",
+    link: "http://www.link.com",
+  },
+  {
+    logo: spotify,
+    title: "React.js",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta deleniti, nobis et rem modi alias. Tempore odit ullam illum nostrum! Saepe dicta perferendis placeat quibusdam quia a sint ipsum! ",
+    linkName: "lest see this course",
+    link: "http://www.link.com",
+  },
+  {
+    logo: aboutLogo,
+    title: "Next.js",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta deleniti, nobis et rem modi alias. Tempore odit ullam illum nostrum! Saepe dicta perferendis placeat quibusdam quia a sint ipsum! ",
+    linkName: "lest see this course",
+    link: "http://www.link.com",
+  },
+];
+
+// ! Certificate cards data
+const certificateCard = [
+  {
+    image: certificate,
+    title: "web development JavaScript",
+    year: "2021 - 2030",
+  },
+  {
+    image: certificate1,
+    title: "web development HTML & CSS",
+    year: "2021 - 2024",
+  },
+  {
+    image: certificate2,
+    title: "web development React.js",
+    year: "2023-2024",
+  },
+  {
+    image: certificate3,
+    title: "web development Next.js",
+    year: "2024- now",
+  },
+  {
+    image: certificate4,
+    title: "SQL",
+    year: "2020 - 2020/3",
+  },
+  {
+    image: certificate,
+    title: "web development",
+    year: "2021",
+  },
+  {
+    image: certificate3,
+    title: "web development",
+    year: "2021",
+  },
+  {
+    image: certificate4,
+    title: "web development",
+    year: "2021",
+  },
+  {
+    image: certificate,
+    title: "web development",
+    year: "2021",
+  },
+];
+
+// ? project data for slider
+const projectData = [
+  {
+    image: project1,
+    title: "World mark",
+    description:
+      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API..",
+    technology: ["React.js, ", "Router, ", "css module, "],
+    projectLink: [
+      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
+      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
+      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+    ],
+  },
+  {
+    image: project2,
+    title: "World mark",
+    description:
+      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API..",
+    technology: ["React.js", "Router", "css module"],
+    projectLink: [
+      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
+      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
+      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+    ],
+  },
+  {
+    image: project3,
+    title: "World mark",
+    description:
+      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API..",
+    technology: ["React.js", "Router", "css module"],
+    projectLink: [
+      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
+      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
+      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+    ],
+  },
+  {
+    image: project4,
+    title: "World mark",
+    description:
+      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API...",
+    technology: ["React.js", "Router", "css module"],
+    projectLink: [
+      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
+      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
+      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+    ],
+  },
+  {
+    image: project5,
+    title: "World mark",
+    description:
+      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API...",
+    technology: ["React.js", "Router", "css module"],
+    projectLink: [
+      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
+      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
+      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+    ],
+  },
+  {
+    image: project6,
+    title: "World mark",
+    description:
+      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API...",
+    technology: [
+      "React.js, ",
+      "Router, ",
+      "css module, ",
+      "React Query, ",
+      "API",
+    ],
+    projectLink: [
+      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
+      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
+      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+    ],
+  },
+];
+
+export {
+  head,
+  toDo,
+  icons,
+  skills,
+  eductionData,
+  certificateCard,
+  projectData,
+};

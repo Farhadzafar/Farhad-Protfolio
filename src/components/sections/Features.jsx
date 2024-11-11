@@ -9,8 +9,8 @@ export default function Features() {
       <h3 className="h3 mb-12">What Can I Do?</h3>
 
       <ul className="w-full flex justify-center gap-10">
-        {toDo.map((itme) => (
-          <CardsSmall key={itme.id} items={itme} />
+        {toDo.map((item) => (
+          <CardsSmall key={item.id} items={item} />
         ))}
       </ul>
     </Section>

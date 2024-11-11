@@ -48,6 +48,22 @@ import farhad from "./farhad/boy.png";
 import aboutLogo from "./farhad/about-logo.jpg";
 import domenciode from "./farhad/domenico.jpg";
 
+// ? Certificate of my skills
+import certificate from "./farhad/certificate(1).jpg";
+import certificate1 from "./farhad/certificate(1).jpg";
+import certificate2 from "./farhad/certificate(2).jpg";
+import certificate3 from "./farhad/certificate(3).jpg";
+import certificate4 from "./farhad/certificat(4).png";
+
+// ! project images
+
+import project1 from "./project/project1.png";
+import project2 from "./project/project2.png";
+import project3 from "./project/project3.png";
+import project4 from "./project/project4.png";
+import project5 from "./project/project5.png";
+import project6 from "./project/project6.png";
+
 export {
   asus,
   api,
@@ -91,4 +107,15 @@ export {
   domenciode,
   gitHub,
   linkedin,
+  certificate,
+  certificate1,
+  certificate2,
+  certificate3,
+  certificate4,
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
 };
