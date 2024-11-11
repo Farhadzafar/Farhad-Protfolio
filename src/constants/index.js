@@ -75,7 +75,7 @@ const toDo = [
     id: 1,
     Icon: HiMiniLanguage,
     title: "Speaking",
-    desorption:
+    description:
       " i can make design in adob XD and figma with beatifull lyoute.",
     color: "bg-color-4",
   },
@@ -83,7 +83,7 @@ const toDo = [
     id: 2,
     Icon: HiQrCode,
     title: "make ux/ui design",
-    desorption:
+    description:
       " i can make design in adob XD and figma with beatifull lyoute.",
     color: "bg-color-2",
   },
@@ -91,7 +91,7 @@ const toDo = [
     id: 3,
     Icon: HiAdjustmentsHorizontal,
     title: "Codeing in 3 langnuge",
-    desorption:
+    description:
       " i can make design in adob XD and figma with beatifull lyoute.",
 
     color: "bg-color-3",
