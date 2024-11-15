@@ -13,7 +13,8 @@ export default function Contact() {
   });
 
   const [errors, setErrors] = useState({});
-  const [submitted, setSubmitted] = useState(false);
+  const [ruslte, setRuslte] = useState(false);
+  // const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -44,6 +45,31 @@ export default function Contact() {
     return errors;
   };
 
+  // const [result, setResult] = useState;
+
+  // const onSubmit = async (event) => {
+  //   event.preventDefault();
+  //   setResult("Sending....");
+  //   const formData = new FormData(event.target);
+
+  //   formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+  //   const response = await fetch("https://api.web3forms.com/submit", {
+  //     method: "POST",
+  //     body: formData,
+  //   });
+
+  //   const data = await response.json();
+
+  //   if (data.success) {
+  //     setResult("Form Submitted Successfully");
+  //     event.target.reset();
+  //   } else {
+  //     console.log("Error", data);
+  //     setResult(data.message);
+  //   }
+  // };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
@@ -51,29 +77,28 @@ export default function Contact() {
       setErrors(validationErrors);
     } else {
       setErrors({});
-      setSubmitted(true);
-      setFormData({ name: "", email: "", message: "" });
+      // setSubmitted(true);
       try {
-        const response = await fetch("https://example.com/send-email", {
+        setRuslte(true);
+        const formData = new FormData(event.target);
+        formData.append("access_key", "f7998df9-a402-49d0-a6e5-4d7525c7e268");
+        const response = await fetch("https://api.web3forms.com/submit", {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            to: "farhadzafari10@gmail.com",
-            subject: "Contact Form Submission",
-            text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
-          }),
+          body: formData,
         });
-        if (response.ok) {
+        const data = await response.json();
+        if (data.success) {
           toast.success("Message sent successfully!");
           setFormData({ name: "", email: "", message: "" });
+          setRuslte(false);
         } else {
           toast.error("Failed to send message.");
+          setRuslte(false);
         }
       } catch (error) {
         console.error("Error sending email:", error);
-        toast.error("An error occurred. Please try again.");
+        toast.error("we can't find this email. Please try again.");
+        setRuslte(false);
       }
     }
   };
@@ -156,15 +181,19 @@ export default function Contact() {
           />
           <button
             type="submit"
-            className="p-2 bg-color-3 text-white rounded-lg hover:bg-color-3/70"
+            className={`p-2  text-white rounded-lg hover:bg-color-3/70 ${
+              ruslte ? "bg-color-3/70 cursor-not-allowed" : "bg-color-3"
+            }`}
+            disabled={ruslte}
           >
-            Send Message
+            {ruslte ? "Send..." : "Send Message"}
           </button>
-          {submitted && !Object.keys(errors).length && (
+
+          {/* {submitted && !Object.keys(errors).length && (
             <p className="text-green-500 text-sm mt-2">
               Message sent successfully!
             </p>
-          )}
+          )} */}
         </form>
       </div>
     </Section>

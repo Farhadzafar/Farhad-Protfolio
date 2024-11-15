@@ -1,3 +1,4 @@
+import { HiMiniArrowDownTray } from "react-icons/hi2";
 import {
   api,
   css,
@@ -17,6 +18,15 @@ import Button from "../Button";
 import Section from "../Section";
 
 export default function Hero() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "../../../public/Farhad_Ahmad_Zafari.pdf"; // Replace with the actual path to your PDF file
+    link.download = "Farhad.pdf"; // Replace with the desired file name
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <Section>
       <div className="w-full overflow-hidden relative">
@@ -90,7 +100,12 @@ export default function Hero() {
 
             {/* Buttons */}
             <div className="flex gap-2 justify-center lg:justify-start mt-11">
-              <Button>Download CV</Button>
+              <Button onClick={handleDownload}>
+                Download CV{" "}
+                <span>
+                  {<HiMiniArrowDownTray className=" text-xl font-semibold" />}
+                </span>
+              </Button>
               {/* <Button href="#projects">Projects</Button> */}
             </div>
           </div>

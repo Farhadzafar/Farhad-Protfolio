@@ -1,4 +1,4 @@
-export default function Icon({ icons }) {
+export default function Icon({ icons, className }) {
   const {
     icon,
     size,
@@ -8,7 +8,7 @@ export default function Icon({ icons }) {
     <img
       src={icon}
       alt={` icon of ${icon}`}
-      className={` absolute ${top} ${left} ${size}`}
+      className={` absolute ${top} ${left} ${size} ${className}`}
     />
   );
 }

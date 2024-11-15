@@ -2,9 +2,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Import Tailwind CSS */
+@import "tailwindcss/components";
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+
+/* Custom scrollbar styles */
+body,
+html {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ff7c1e #e5e5e5; /* Firefox */
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-track,
+html::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+body::-webkit-scrollbar-thumb,
+html::-webkit-scrollbar-thumb {
+  background-color: #ff7c1e;
+  border-radius: 15px;
+  border: 3px solid #e5e5e5;
+}
 
 :root {
   --font-sora: "Sora", sans-serif;
@@ -89,4 +114,8 @@
 
 .-rotate-360 {
   @apply rotate-[-360deg];
+}
+
+.perspective {
+  perspective: 1000px;
 }

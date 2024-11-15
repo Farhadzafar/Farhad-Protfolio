@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
+import scrollbarPlugin from "tailwind-scrollbar";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -74,6 +75,7 @@ export default {
     },
   },
   plugins: [
+    scrollbarPlugin, // Add the scrollbar plugin
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({
@@ -135,4 +137,7 @@ export default {
       });
     }),
   ],
+  variants: {
+    scrollbar: ["rounded"], // Add the scrollbar variants
+  },
 };

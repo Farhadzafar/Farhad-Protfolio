@@ -27,6 +27,14 @@ import {
   project4,
   project5,
   project6,
+  email,
+  flutter,
+  nb,
+  mobile,
+  redux,
+  typescript,
+  vue,
+  gitHub,
 } from ".././assets/index";
 
 import {
@@ -103,74 +111,178 @@ const toDo = [
 const icons = [
   {
     icon: git,
-    size: "w-[54px]",
-    position: {
-      top: "top-[25%]",
-      left: "left-[25%]",
-    },
-  },
-  {
-    icon: html,
-    size: "w-[44px]",
-    position: {
-      top: "top-[30%]",
-      left: "left-[30%]",
-    },
-  },
-  {
-    icon: react,
-    size: "w-[70px]",
-    position: {
-      top: "top-[10%]",
-      left: "left-[10%]",
-    },
-  },
-  {
-    icon: nextJs,
-    size: "w-[120px]",
-    position: {
-      top: "top-[50%]",
-      left: "left-[50%]",
-    },
-  },
-  {
-    icon: figma,
-    size: "w-[50px]",
-    position: {
-      top: "top-[75%]",
-      left: "left-[50%]",
-    },
-  },
-  {
-    icon: css,
-    size: "w-[80px]",
+    size: "w-[55px]",
     position: {
       top: "top-[0%]",
       left: "left-[0%]",
     },
   },
   {
-    icon: javascript,
-    size: "w-[110px]",
+    icon: html,
+    size: "w-[90px]",
+    position: {
+      top: "top-[40%]",
+      left: "left-[0%]",
+    },
+  },
+  {
+    icon: react,
+    size: "w-[90px]",
     position: {
       top: "top-[0%]",
-      left: "left-[80%]",
+      left: "left-[40%]",
+    },
+  },
+  {
+    icon: nextJs,
+    size: "w-[100px]",
+    position: {
+      top: "top-[40%]",
+      left: "left-[40%]",
+    },
+  },
+  {
+    icon: figma,
+    size: "w-[55px]",
+    position: {
+      top: "top-[20%]",
+      left: "left-[25%]",
+    },
+  },
+  {
+    icon: css,
+    size: "w-[90px]",
+    position: {
+      top: "top-[40%]",
+      left: "left-[85%]",
+    },
+  },
+  {
+    icon: javascript,
+    size: "w-[90px]",
+    position: {
+      top: "top-[83%]",
+      left: "left-[40%]",
     },
   },
   {
     icon: python,
-    size: "w-[90px]",
+    size: "w-[60px]",
     position: {
-      top: "top-[100%]",
+      top: "top-[20%]",
       left: "left-[80%]",
     },
   },
   {
     icon: cpp,
-    size: "w-[54px]",
+    size: "w-[55px]",
     position: {
-      top: "top-[100%]",
+      top: "top-[20%]",
+      left: "left-[40%]",
+    },
+  },
+  {
+    icon: api,
+    size: "w-[60px]",
+    position: {
+      top: "top-[20%]",
+      left: "left-[60%]",
+    },
+  },
+  {
+    icon: email,
+    size: "w-[55px]",
+    position: {
+      top: "top-[20%]",
+      left: "left-[7%]",
+    },
+  },
+  {
+    icon: flutter,
+    size: "w-[55px]",
+    position: {
+      top: "top-[0%]",
+      left: "left-[20%]",
+    },
+  },
+  {
+    icon: graphql,
+    size: "w-[55px]",
+    position: {
+      top: "top-[0%]",
+      left: "left-[68%]",
+    },
+  },
+  {
+    icon: nb,
+    size: "w-[60px]",
+    position: {
+      top: "top-[94%]",
+      left: "left-[90%]",
+    },
+  },
+  {
+    icon: node,
+    size: "w-[55px]",
+    position: {
+      top: "top-[45%]",
+      left: "left-[23%]",
+    },
+  },
+  {
+    icon: mobile,
+    size: "w-[60px]",
+    position: {
+      top: "top-[87%]",
       left: "left-[0%]",
+    },
+  },
+  {
+    icon: mu5,
+    size: "w-[60px]",
+    position: {
+      top: "top-[66%]",
+      left: "left-[45%]",
+    },
+  },
+  {
+    icon: redux,
+    size: "w-[55px]",
+    position: {
+      top: "top-[43%]",
+      left: "left-[67%]",
+    },
+  },
+  {
+    icon: skype,
+    size: "w-[66px]",
+    position: {
+      top: "top-[69%]",
+      left: "left-[65%]",
+    },
+  },
+  {
+    icon: typescript,
+    size: "w-[60px]",
+    position: {
+      top: "top-[67%]",
+      left: "left-[10%]",
+    },
+  },
+  {
+    icon: vue,
+    size: "w-[60px]",
+    position: {
+      top: "top-[66%]",
+      left: "left-[80%]",
+    },
+  },
+  {
+    icon: gitHub,
+    size: "w-[55px]",
+    position: {
+      top: "top-[0%]",
+      left: "left-[90%]",
     },
   },
 ];

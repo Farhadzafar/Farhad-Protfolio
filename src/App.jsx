@@ -1,3 +1,5 @@
+import TestTastonunl from "./components/sections/TestTastonul";
+
 import Header from "./components/Header";
 import Hero from "./components/sections/Hero";
 // import HroGPT from "./components/sections/HroGPT";
@@ -5,7 +7,7 @@ import About from "./components/sections/About";
 import Features from "./components/sections/Features";
 import Resume from "./components/sections/Resume";
 import Projects from "./components/sections/Projects";
-import Testimonial from "./components/sections/Testimonial";
+import Testimonials from "./components/sections/Testimonials";
 import ContactUs from "./components/sections/ContactUs";
 import Footer from "./components/sections/Footer";
 const App = () => {
@@ -18,7 +20,8 @@ const App = () => {
       <Resume />
       <Projects />
       <ContactUs />
-      <Testimonial />
+      {/* <Testimonials /> */}
+      <TestTastonunl />
       <Footer />
     </>
   );
