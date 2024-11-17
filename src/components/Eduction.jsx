@@ -7,7 +7,7 @@ export default function Eduction() {
       <h2 className="text-2xl font-bold text-center mt-4 text-gray-800">
         My Education Journey
       </h2>
-      <p className="mt-2 text-center text-xl font-semibold text-gray-700">
+      <p className="mt-2 lg:px-8 px-2 text-center lg:text-xl font-medium text-gray-700">
         Education is the foundation upon which we build our future. Keep
         learning and growing!
       </p>

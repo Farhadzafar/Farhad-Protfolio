@@ -8,7 +8,7 @@ export default function Skills() {
       <h2 className="text-2xl font-bold text-center mt-1 text-gray-800">
         My Skill Set
       </h2>
-      <p className="mt-2 text-center lg:text-xl font-medium text-gray-700">
+      <p className="mt-2 lg:px-8 px-2 text-center lg:text-xl font-medium text-gray-700">
         My education has given me diverse skills. I’m always learning and
         growing in technology.
       </p>

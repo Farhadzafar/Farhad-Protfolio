@@ -2,8 +2,8 @@ export default function EductionCard({ data }) {
   const { logo, title, description, linkName, link } = data;
 
   return (
-    <div className="flex flex-col lg:flex-row justify-start items-center sm:items-center sm:text-center lg:items-start mb-8 p-4 rounded-lg">
-      <div className="flex justify-center items-center p-2 border border-white rounded-md bg-color-4/60 mb-4 sm:mb-0 lg:mr-4">
+    <div className="flex flex-col lg:flex-row justify-start items-center sm:items-center sm:text-center lg:items-start mb-8 p-4 rounded-lg border shadow-sm hover:shadow-md">
+      <div className="flex justify-center items-center p-2 border rounded-md bg-gray-100 mb-4 sm:mb-0 lg:mr-4 shadow-sm">
         <img
           className="w-[35px] h-[35px] rounded-full"
           src={logo}

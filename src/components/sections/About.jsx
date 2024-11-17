@@ -14,7 +14,7 @@ export default function About() {
         />
       </div>
 
-      <div className="w-full md:w-[70%] pr-4 md:pr-20 pb-8 md:pb-16 py-10 md:py-20">
+      <div className="w-full md:w-[70%] pr-4 md:pr-20 pb-8 md:pb-16 py-10 md:py-20 md:left-center ">
         <span className="text-lg font-semibold text-gray-700">About me</span>
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
           Who Am I?

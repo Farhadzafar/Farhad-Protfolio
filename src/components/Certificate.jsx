@@ -16,7 +16,7 @@ export default function Certificate() {
     <div className="w-full py-12 bg-white">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold text-gray-800">Our Achievements</h2>
-        <p className="text-gray-600 mt-2">
+        <p className="mt-2 lg:px-8 px-2 text-center lg:text-xl font-medium text-gray-700">
           We are proud of our accomplishments and the milestones we ve reached.
           Here are some of the certificates that highlight our journey and
           success.
@@ -28,16 +28,16 @@ export default function Certificate() {
           showAll
             ? "md:grid-cols-2 lg:grid-cols-3"
             : "md:grid-cols-2 lg:grid-cols-3"
-        } justify-center`}
+        } justify-center `}
       >
         {certificateCard
           .slice(0, showAll ? certificateCard.length : 3)
           .map((data, i) => (
             <div
-              className="py-6 transform transition duration-300 hover:scale-105"
+              className="w-[90%] pb-4 my-6 transform transition duration-300 hover:shadow-lg rounded-md shadow-md overflow-hidden"
               key={i}
             >
-              <div className="w-[80%] mx-auto h-[10rem] rounded-md overflow-hidden shadow-lg border-2 border-blue-500">
+              <div className="w-[100%] mx-auto h-[10rem] overflow-hidden">
                 <img
                   className="w-full h-full object-cover"
                   src={data.image}

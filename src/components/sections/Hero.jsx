@@ -30,25 +30,6 @@ export default function Hero() {
   return (
     <Section>
       <div className="w-full overflow-hidden relative">
-        {/* Icons for large screens */}
-        <div className="w-full hidden lg:block">
-          <img
-            src={react}
-            alt="react icon"
-            className="w-[4rem] absolute bottom-12 right-10 -z-1"
-          />
-          <img
-            src={git}
-            alt="git icon"
-            className="w-[3rem] absolute top-32 right-16 -z-1"
-          />
-          <img
-            src={nextJs}
-            alt="next js icon"
-            className="w-[8rem] absolute top-28 right-[35%] -z-1 -rotate-45"
-          />
-        </div>
-
         <div className="w-full h-full z-20 flex flex-col-reverse lg:flex-row gap-8 my-20 items-center lg:items-start">
           {/* Content about me */}
           <div className="w-full lg:w-[55%] mt-10 text-center lg:text-left">
@@ -115,7 +96,25 @@ export default function Hero() {
           </div>
 
           {/* Image of me */}
-          <div className="w-full lg:w-[40%] my-8 lg:ml-32 flex justify-center lg:justify-start">
+          <div className=" relative w-full lg:w-[40%] my-8 lg:ml-32 flex justify-center lg:justify-start">
+            {/* Icons for large screens */}
+
+            <img
+              src={react}
+              alt="react icon"
+              className="w-[5rem] absolute bottom-3 right-5 z-1 spin-animation"
+            />
+
+            <img
+              src={git}
+              alt="git icon"
+              className="w-[3rem] absolute top-8 right-0 -z-1"
+            />
+            <img
+              src={nextJs}
+              alt="next js icon"
+              className="w-[5rem] absolute top-0 left-0 lg:-left-28 lg:w-[8rem] -z-1 -rotate-45"
+            />
             <img
               className="w-[75%] md:w-[60%] lg:w-full rounded-full border-1 border-color-3 shadow-md shadow-color-3"
               src={farhad4}

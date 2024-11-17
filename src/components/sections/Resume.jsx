@@ -3,10 +3,10 @@ import Section from "../Section";
 import Skills from "../Skills";
 import Eduction from "../Eduction";
 import Certificate from "../Certificate";
-import Entership from "../Entership";
+// import Entership from "../Entership";
 
 export default function Resume() {
-  const [item, setItem] = useState("eduction");
+  const [item, setItem] = useState("skills");
 
   const buttonClasses = `
     border border-color-3 text-color-3 rounded-full px-3 py-1 text-sm
@@ -39,14 +39,14 @@ export default function Resume() {
           >
             Skills
           </button>
-          <button
+          {/* <button
             onClick={() => setItem("internship")}
             className={`${buttonClasses} ${
               item === "internship" ? activeButtonClasses : ""
             }`}
           >
             Internship
-          </button>
+          </button> */}
           <button
             onClick={() => setItem("certificate")}
             className={`${buttonClasses} ${
@@ -61,7 +61,7 @@ export default function Resume() {
         {item === "skills" && <Skills />}
         {item === "eduction" && <Eduction />}
         {item === "certificate" && <Certificate />}
-        {item === "internship" && <Entership />}
+        {/* {item === "internship" && <Entership />} */}
       </div>
     </Section>
   );
