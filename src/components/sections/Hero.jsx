@@ -90,9 +90,13 @@ export default function Hero() {
                 ].map((icon, index) => (
                   <li
                     key={index}
-                    className="w-10 h-10 md:w-12 md:h-12 lg:w-8 lg:h-8"
+                    className="w-10 h-10 md:w-12 md:h-12 lg:w-8 lg:h-8 transition-all "
                   >
-                    <img className="w-full" src={icon} alt={`icon ${icon}`} />
+                    <img
+                      className="w-full hover:scale-110"
+                      src={icon}
+                      alt={`icon ${icon}`}
+                    />
                   </li>
                 ))}
               </ul>
