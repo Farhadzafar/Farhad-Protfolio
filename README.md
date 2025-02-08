@@ -876,3 +876,11 @@ And if you're hungry for more than just a course and want to understand how we l
 </a>
 
 #
+
+## 👤 About the Author
+
+**Farhad**
+
+- GitHub: [@Farhad](https://github.com/Farhad)
+- LinkedIn: [Farhad](https://www.linkedin.com/in/farhad/)
+- Twitter: [@Farhad](https

@@ -81,26 +81,26 @@ const head = [
 const toDo = [
   {
     id: 1,
-    Icon: HiMiniLanguage,
-    title: "Speaking",
+    Icon: HiQrCode,
+    title: "User-Friendly Interface",
     description:
-      " i can make design in adob XD and figma with beatifull lyoute.",
+      " Navigate easily with our intuitive design, making tasks simpler and faster Customizable Options",
     color: "bg-color-4",
   },
   {
     id: 2,
-    Icon: HiQrCode,
-    title: "make ux/ui design",
+    Icon: HiAdjustmentsHorizontal,
+    title: "Advanced Analytics",
     description:
-      " i can make design in adob XD and figma with beatifull lyoute.",
+      " Access detailed reports and insights to inform your decisions and strategies. Secure Data Management",
     color: "bg-color-2",
   },
   {
     id: 3,
-    Icon: HiAdjustmentsHorizontal,
-    title: "Codeing in 3 langnuge",
+    Icon: HiMiniLanguage,
+    title: "Fast & Friendly Support",
     description:
-      " i can make design in adob XD and figma with beatifull lyoute.",
+      "We are provide 24 hours support for all clients.You can purchase without hesitation.",
 
     color: "bg-color-3",
   },
@@ -111,7 +111,7 @@ const toDo = [
 const icons = [
   {
     icon: git,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]", // smaller for small screens, original for large screens
     position: {
       top: "top-[0%]",
       left: "left-[0%]",
@@ -119,7 +119,7 @@ const icons = [
   },
   {
     icon: html,
-    size: "w-[90px]",
+    size: "w-[45px] md:w-[75px] lg:w-[90px]",
     position: {
       top: "top-[40%]",
       left: "left-[0%]",
@@ -127,7 +127,7 @@ const icons = [
   },
   {
     icon: react,
-    size: "w-[90px]",
+    size: "w-[45px] md:w-[75px] lg:w-[90px]",
     position: {
       top: "top-[0%]",
       left: "left-[40%]",
@@ -135,7 +135,7 @@ const icons = [
   },
   {
     icon: nextJs,
-    size: "w-[100px]",
+    size: "w-[50px] md:w-[85px] lg:w-[100px]",
     position: {
       top: "top-[40%]",
       left: "left-[40%]",
@@ -143,7 +143,7 @@ const icons = [
   },
   {
     icon: figma,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[20%]",
       left: "left-[25%]",
@@ -151,7 +151,7 @@ const icons = [
   },
   {
     icon: css,
-    size: "w-[90px]",
+    size: "w-[45px] md:w-[75px] lg:w-[90px]",
     position: {
       top: "top-[40%]",
       left: "left-[85%]",
@@ -159,7 +159,7 @@ const icons = [
   },
   {
     icon: javascript,
-    size: "w-[90px]",
+    size: "w-[45px] md:w-[75px] lg:w-[90px]",
     position: {
       top: "top-[83%]",
       left: "left-[40%]",
@@ -167,7 +167,7 @@ const icons = [
   },
   {
     icon: python,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[20%]",
       left: "left-[80%]",
@@ -175,7 +175,7 @@ const icons = [
   },
   {
     icon: cpp,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[20%]",
       left: "left-[40%]",
@@ -183,7 +183,7 @@ const icons = [
   },
   {
     icon: api,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[20%]",
       left: "left-[60%]",
@@ -191,7 +191,7 @@ const icons = [
   },
   {
     icon: email,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[20%]",
       left: "left-[7%]",
@@ -199,7 +199,7 @@ const icons = [
   },
   {
     icon: flutter,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[0%]",
       left: "left-[20%]",
@@ -207,7 +207,7 @@ const icons = [
   },
   {
     icon: graphql,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[0%]",
       left: "left-[68%]",
@@ -215,7 +215,7 @@ const icons = [
   },
   {
     icon: nb,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[94%]",
       left: "left-[90%]",
@@ -223,7 +223,7 @@ const icons = [
   },
   {
     icon: node,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[45%]",
       left: "left-[23%]",
@@ -231,7 +231,7 @@ const icons = [
   },
   {
     icon: mobile,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[87%]",
       left: "left-[0%]",
@@ -239,7 +239,7 @@ const icons = [
   },
   {
     icon: mu5,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[66%]",
       left: "left-[45%]",
@@ -247,7 +247,7 @@ const icons = [
   },
   {
     icon: redux,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[43%]",
       left: "left-[67%]",
@@ -255,7 +255,7 @@ const icons = [
   },
   {
     icon: skype,
-    size: "w-[66px]",
+    size: "w-[40px] md:w-[60px] lg:w-[66px]",
     position: {
       top: "top-[69%]",
       left: "left-[65%]",
@@ -263,7 +263,7 @@ const icons = [
   },
   {
     icon: typescript,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[67%]",
       left: "left-[10%]",
@@ -271,7 +271,7 @@ const icons = [
   },
   {
     icon: vue,
-    size: "w-[60px]",
+    size: "w-[35px] md:w-[55px] lg:w-[60px]",
     position: {
       top: "top-[66%]",
       left: "left-[80%]",
@@ -279,7 +279,7 @@ const icons = [
   },
   {
     icon: gitHub,
-    size: "w-[55px]",
+    size: "w-[30px] md:w-[50px] lg:w-[55px]",
     position: {
       top: "top-[0%]",
       left: "left-[90%]",
@@ -287,7 +287,7 @@ const icons = [
   },
 ];
 
-// ! data about my skills
+// ! programs about my skills
 
 const skills = [
   {

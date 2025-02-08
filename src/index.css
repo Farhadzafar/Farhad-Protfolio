@@ -120,7 +120,7 @@ html::-webkit-scrollbar-thumb {
   perspective: 1000px;
 }
 
-/* custom.css */
+/* custom.css animation for reat icons in the hero section */
 @keyframes spin {
   0% {
     transform: rotate(0deg);
