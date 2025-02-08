@@ -140,7 +140,7 @@ export default function Contact() {
               </div>
               <strong>Address</strong>
             </div>
-            <p className="ml-9">Afghanistan, Ghazni, Mapure</p>
+            <p className="ml-9">Afghanistan, Ghazni, Moqor</p>
           </div>
         </div>
 
