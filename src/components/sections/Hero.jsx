@@ -20,7 +20,7 @@ import Section from "../Section";
 export default function Hero() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../../../public/Farhad_Ahmad_Zafari.pdf"; // Replace with the actual path to your PDF file
+    link.href = "/Farhad_Ahmad_Zafari.pdf"; // Replace with the actual path to your PDF file
     link.download = "Farhad.pdf"; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
