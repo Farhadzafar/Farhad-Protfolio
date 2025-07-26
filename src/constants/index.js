@@ -41,6 +41,12 @@ import {
   HiMiniLanguage,
   HiQrCode,
   HiAdjustmentsHorizontal,
+  HiOutlineDevicePhoneMobile,
+  HiOutlineChartBar,
+  HiOutlineWrenchScrewdriver,
+  HiOutlineCloud,
+  HiOutlineGlobeAlt,
+  HiOutlineShieldCheck,
 } from "react-icons/hi2";
 
 const head = [
@@ -81,28 +87,51 @@ const head = [
 const toDo = [
   {
     id: 1,
-    Icon: HiQrCode,
-    title: "User-Friendly Interface",
+    Icon: HiOutlineDevicePhoneMobile,
+    title: "Responsive Web Design",
     description:
-      " Navigate easily with our intuitive design, making tasks simpler and faster Customizable Options",
-    color: "bg-color-4",
+      "Crafting clean, mobile-first interfaces using modern frameworks like Tailwind CSS & Material UI for optimal user experience.",
+    color: "bg-color-1",
   },
   {
     id: 2,
-    Icon: HiAdjustmentsHorizontal,
-    title: "Advanced Analytics",
+    Icon: HiOutlineChartBar,
+    title: "Data-Driven Solutions",
     description:
-      " Access detailed reports and insights to inform your decisions and strategies. Secure Data Management",
+      "Implementing dashboards and analytics using APIs and charts to help users visualize and act on their data.",
     color: "bg-color-2",
   },
   {
     id: 3,
-    Icon: HiMiniLanguage,
-    title: "Fast & Friendly Support",
+    Icon: HiOutlineWrenchScrewdriver,
+    title: "Custom Web Applications",
     description:
-      "We are provide 24 hours support for all clients.You can purchase without hesitation.",
-
+      "Building scalable full-stack apps with React.js, Next.js, Node.js, Express.js, and TypeScript.",
     color: "bg-color-3",
+  },
+  {
+    id: 4,
+    Icon: HiOutlineCloud,
+    title: "API Development & Integration",
+    description:
+      "Designing RESTful APIs and integrating third-party services like payment gateways, CRMs, and cloud storage.",
+    color: "bg-color-4",
+  },
+  {
+    id: 5,
+    Icon: HiOutlineGlobeAlt,
+    title: "Multilingual & SEO Optimization",
+    description:
+      "Creating fast, globally-accessible web apps with SEO best practices and multi-language support.",
+    color: "bg-color-5",
+  },
+  {
+    id: 6,
+    Icon: HiOutlineShieldCheck,
+    title: "Secure & Scalable Backend",
+    description:
+      "Ensuring reliable performance with JWT auth, validation, and secure data handling across all services.",
+    color: "bg-color-6",
   },
 ];
 

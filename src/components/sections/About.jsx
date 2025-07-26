@@ -22,7 +22,7 @@ export default function About() {
         <p className="text-base md:text-lg text-gray-700 mt-6 leading-relaxed">
           My name is Farhad Ahmad Zafari, a dedicated software engineer from
           Afghanistan with a Bachelor’s degree in Computer Science, which I
-          earned at Kandahar University between 2021 and 2024. I am passionate
+          earned at Kandahar University between 2022 and 2054. I am passionate
           about leveraging modern technologies such as Next.js, React.js, and
           Python to develop dynamic and robust full-stack web applications. My
           focus extends beyond functionality to ensure an engaging and visually

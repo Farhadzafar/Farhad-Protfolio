@@ -135,3 +135,134 @@ export default function ProjectSlide() {
     </div>
   );
 }
+
+// this my code I will be use leter in this section
+// Updated project card to show links and open in new tab
+
+// import { useState, useEffect } from "react";
+// import { projectData } from "../constants";
+// import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+
+// export default function ProjectSlide() {
+//   const [currentIndex, setCurrentIndex] = useState(0);
+//   const [isHovered, setIsHovered] = useState(false);
+
+//   const handlePrev = () => {
+//     setCurrentIndex((prevIndex) =>
+//       prevIndex === 0 ? projectData.length - 1 : prevIndex - 1
+//     );
+//   };
+
+//   const handleNext = () => {
+//     setCurrentIndex((prevIndex) =>
+//       prevIndex === projectData.length - 1 ? 0 : prevIndex + 1
+//     );
+//   };
+
+//   const goToSlide = (index) => {
+//     setCurrentIndex(index);
+//   };
+
+//   useEffect(() => {
+//     const handleKeyDown = (event) => {
+//       if (event.key === "ArrowRight") {
+//         handleNext();
+//       } else if (event.key === "ArrowLeft") {
+//         handlePrev();
+//       }
+//     };
+
+//     window.addEventListener("keydown", handleKeyDown);
+//     return () => window.removeEventListener("keydown", handleKeyDown);
+//   }, []);
+
+//   useEffect(() => {
+//     if (isHovered) return;
+//     const interval = setInterval(() => handleNext(), 5000);
+//     return () => clearInterval(interval);
+//   }, [currentIndex, isHovered]);
+
+//   return (
+//     <div className="relative w-full overflow-hidden">
+//       <div
+//         className="flex items-center transition-transform ease-out duration-500"
+//         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+//       >
+//         {projectData.map((project, i) => (
+//           <div
+//             key={i}
+//             className="w-full flex-shrink-0 px-4"
+//             style={{ flex: "0 0 100%" }}
+//             onMouseEnter={() => setIsHovered(true)}
+//             onMouseLeave={() => setIsHovered(false)}
+//           >
+//             <div className="w-full pt-6 pb-8 mx-auto mt-4 shadow-lg rounded-lg border max-w-4xl">
+//               <div className="w-full h-auto px-6">
+//                 <div className="w-full flex flex-col md:flex-row gap-6">
+//                   <div className="md:w-1/2 py-8 pl-4">
+//                     <h4 className="text-xl font-bold mb-2">
+//                       🌍 {project.title}
+//                     </h4>
+//                     <p className="text-lg leading-relaxed mb-4 text-gray-700">
+//                       {project.description}
+//                     </p>
+//                     <p className="text-gray-600 mb-2">
+//                       <strong>Technology:</strong>{" "}
+//                       {project.technology.join(", ")}
+//                     </p>
+//                     <div className="flex flex-wrap gap-3 mt-2">
+//                       {project.projectLink.map((linkObj, idx) => (
+//                         <a
+//                           key={idx}
+//                           href={`https://${linkObj.link}`}
+//                           target="_blank"
+//                           rel="noopener noreferrer"
+//                           className="text-blue-600 underline text-sm"
+//                         >
+//                           🔗 {linkObj.name}
+//                         </a>
+//                       ))}
+//                     </div>
+//                   </div>
+//                   <div className="md:w-1/2 flex justify-center items-center bg-gray-100 rounded">
+//                     <div
+//                       className="w-full h-64 bg-cover bg-center rounded-lg shadow border"
+//                       style={{ backgroundImage: `url('${project.image}')` }}
+//                     ></div>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+
+//       <div className="w-full absolute top-1/2 flex justify-between transform -translate-y-1/2 px-4">
+//         <button
+//           onClick={handlePrev}
+//           className="bg-white text-gray-700 text-xl font-bold rounded-full p-2 border shadow"
+//         >
+//           <HiChevronLeft />
+//         </button>
+//         <button
+//           onClick={handleNext}
+//           className="bg-white text-gray-700 text-xl font-bold rounded-full p-2 border shadow"
+//         >
+//           <HiChevronRight />
+//         </button>
+//       </div>
+
+//       <div className="w-full absolute bottom-0 flex justify-center space-x-2 mt-6">
+//         {projectData.map((_, i) => (
+//           <button
+//             key={i}
+//             onClick={() => goToSlide(i)}
+//             className={`w-3 h-3 rounded-full transition-all duration-200 ${
+//               i === currentIndex ? "bg-gray-700 w-4 h-4" : "bg-gray-300"
+//             }`}
+//           ></button>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }

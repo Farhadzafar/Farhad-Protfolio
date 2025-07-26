@@ -44,10 +44,12 @@ export default function Hero() {
             <p className="text-base md:text-lg mb-6 mt-8">
               A{" "}
               <span className="bg-color-2/30 rounded-full px-2">
-                <strong>frontend developer</strong> & UX/UI designer
+                <strong>Full‑Stack Developer</strong> & UX/UI designer
               </span>{" "}
-              crafting sleek, responsive designs that enhance user interaction
-              with React.js, Next.js, MetrilUI, from Afghanistan. 😘
+              I build fast, responsive apps with React.js and Next.js, and power
+              them with Node.js + Express.js APIs. Using TypeScript and Tailwind
+              CSS, I deliver scalable, clean UI backed by reliable server-side
+              logic—all crafted with precision and purpose from Afghanistan. 😘
             </p>
 
             {/* Skills */}
