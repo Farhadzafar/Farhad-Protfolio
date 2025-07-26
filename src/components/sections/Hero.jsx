@@ -2,6 +2,7 @@ import { HiMiniArrowDownTray } from "react-icons/hi2";
 import {
   api,
   css,
+  farhad1,
   farhad4,
   figma,
   git,
@@ -117,7 +118,7 @@ export default function Hero() {
             />
             <img
               className="w-[75%] md:w-[60%] lg:w-full rounded-full border-1 border-color-3 shadow-md shadow-color-3"
-              src={farhad4}
+              src={farhad1}
               alt="Farhad Zafari"
             />
           </div>
