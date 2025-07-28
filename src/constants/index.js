@@ -26,7 +26,8 @@ import {
   project3,
   project4,
   project5,
-  project6,
+  project7,
+  project8,
   email,
   flutter,
   nb,
@@ -35,12 +36,12 @@ import {
   typescript,
   vue,
   gitHub,
+  project20,
+  project10,
+  project9,
 } from ".././assets/index";
 
 import {
-  HiMiniLanguage,
-  HiQrCode,
-  HiAdjustmentsHorizontal,
   HiOutlineDevicePhoneMobile,
   HiOutlineChartBar,
   HiOutlineWrenchScrewdriver,
@@ -476,81 +477,152 @@ const certificateCard = [
 // ? project data for slider
 const projectData = [
   {
-    image: project1,
-    title: "World mark",
+    image: project1, // Replace with a screenshot or logo representing "DevBlog‑Roan"
+    title: "DevBlog‑Roan",
     description:
-      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API..",
-    technology: ["React.js, ", "Router, ", "css module, "],
+      "DevBlog‑Roan is a developer hub for sharing blog posts, code snippets, curated learning resources, and a structured developer roadmap. It's built to help developers progress through blog-style tutorials, code examples, and pathway guidance.",
+    technology: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+    ],
     projectLink: [
-      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
-      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
-      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+      {
+        name: "Github",
+        link: "github.com/Farhadzafar/blag",
+      },
+      {
+        name: "Live Site",
+        link: "devblog-roan.vercel.app/",
+      },
     ],
   },
   {
-    image: project2,
-    title: "World mark",
+    image: project2, // Replace with a screenshot or icon of the platform
+    title: "Book Summary Upload & Share",
     description:
-      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API..",
-    technology: ["React.js", "Router", "css module"],
+      "Book Summary Upload & Share is a collaborative platform that enables users to upload, browse, and share concise book summaries. Built for readers and learners, it simplifies knowledge sharing and discovery through a clean, intuitive interface.",
+    technology: ["React.js", "Vercel", "CSS Modules"],
     projectLink: [
-      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
-      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
-      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+      {
+        name: "Github",
+        link: "github.com/Farhadzafar/05_book-summary-upload-and-share",
+      },
+      {
+        name: "Live Site",
+        link: "05-book-summary-upload-and-share.vercel.app/",
+      },
     ],
   },
   {
     image: project3,
-    title: "World mark",
+    title: "Fatwa Admin Dashboard",
     description:
-      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API..",
-    technology: ["React.js", "Router", "css module"],
-    projectLink: [
-      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
-      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
-      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
-    ],
-  },
-  {
-    image: project4,
-    title: "World mark",
-    description:
-      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API...",
-    technology: ["React.js", "Router", "css module"],
-    projectLink: [
-      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
-      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
-      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
-    ],
-  },
-  {
-    image: project5,
-    title: "World mark",
-    description:
-      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API...",
-    technology: ["React.js", "Router", "css module"],
-    projectLink: [
-      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
-      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
-      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
-    ],
-  },
-  {
-    image: project6,
-    title: "World mark",
-    description:
-      "What nextAs you see it is really easy to integrate Swiper into your website or app. So here are your next steps Go to API Documentation to learn more about all Swiper API...",
+      "The Fatwa Admin Dashboard provides administrative insights across content types—books, articles, research, and fatwas. Administrators can view counts, monitor activity, and manage the platform’s knowledge base through a user-friendly interface.",
     technology: [
-      "React.js, ",
-      "Router, ",
-      "css module, ",
-      "React Query, ",
-      "API",
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Web Analytics",
+    ], // Web Analytics optional
+    projectLink: [
+      {
+        name: "Github",
+        link: "github.com/Farhadzafar/islamic-fatwa-Admin",
+      },
+      {
+        name: "Live Admin Dashboard",
+        link: "fatwa-admin.vercel.app/admin",
+      },
+    ],
+  },
+  {
+    image: project4, // Use a screenshot or logo of the site
+    title: "IslamicFatwa",
+    description:
+      "IslamicFatwa is an Islamic knowledge platform offering a rich repository of books, research papers, articles, and educational resources on Islamic jurisprudence, theology, and spiritual topics. It aims to empower learners and seekers with credible, structured content in both Arabic and other languages.",
+    technology: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Tailwind CSS",
     ],
     projectLink: [
-      { name: "gitHub", link: "www.github/farhadzafar/worldmark" },
-      { name: "world Make", link: "www.github/farhadzafar/worldmark" },
-      { name: "code sandbox", link: "www.github/farhadzafar/worldmark" },
+      { name: "GitHub", link: "github.com/Farhadzafar/Frontend7" },
+      { name: "Live Site", link: "afislamicfatwa.vercel.app/" },
+    ],
+  },
+  {
+    image: project5, // Add a company logo or system UI screenshot
+    title: "BorderlessDevs",
+    description:
+      "BorderlessDevs is a digital software company focused on designing and developing borderless digital systems, platforms, and modern web/mobile applications. We build tools that empower businesses, institutions, and communities—combining innovation with simplicity to create scalable digital ecosystems.",
+    technology: [
+      "Next.js",
+      "Node.js",
+      "React Native",
+      "Tailwind CSS",
+      "MongoDB",
+      "Prisma",
+      "Vercel",
+      "Render",
+    ],
+    projectLink: [
+      { name: "Website", link: "afteach.vercel.app/" }, // Replace with real domain if different
+      // { name: "GitHub", link: "https://github.com/Farhadzafar" }, // Optional, or company org repo
+    ],
+  },
+  {
+    image: project7, // Add a dashboard or landing screenshot
+    title: "TechFix Repair App",
+    description:
+      "TechFix Repair App is a modern tool for repair shops and technicians to manage clients, track service tickets, and stay organized. The platform offers authentication, role-based dashboards, and real‑time statistics for repairs, customers, and work orders.",
+    technology: ["React.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    projectLink: [
+      {
+        name: "Github",
+        link: "github.com/Farhadzafar/TechFix-repair-app",
+      },
+      { name: "Live Site", link: "tech-fix-repair-app.vercel.app/" },
+    ],
+  },
+  {
+    image: project9,
+    title: "Gem FitTrack",
+    description:
+      "Gem FitTrack is a fitness tracking platform where users can monitor workouts, add fitness goals, and follow their health journey. Designed with a clean interface, it supports personal goal-setting, progress tracking, and easy navigation through workout routines.",
+    technology: ["React.js", "Tailwind CSS", "TypeScript", "Vercel"],
+    projectLink: [
+      { name: "GitHub", link: "github.com/Farhadzafar/01_gem-FitTrack" },
+      { name: "Live Site", link: "01-gem-fit-track.vercel.app" },
+    ],
+  },
+  {
+    image: project10,
+    title: "Gem FitTrack",
+    description:
+      "Gem FitTrack is a fitness tracking platform where users can monitor workouts, add fitness goals, and follow their health journey. Designed with a clean interface, it supports personal goal-setting, progress tracking, and easy navigation through workout routines.",
+    technology: ["React.js", "Tailwind CSS", "TypeScript", "Vercel"],
+    projectLink: [
+      { name: "GitHub", link: "github.com/Farhadzafar/01_gem-FitTrack" },
+      { name: "Live Site", link: "01-gem-fit-track.vercel.app" },
+    ],
+  },
+  {
+    image: project20,
+    title: "Gem FitTrack",
+    description:
+      "Gem FitTrack is a fitness tracking platform where users can monitor workouts, add fitness goals, and follow their health journey. Designed with a clean interface, it supports personal goal-setting, progress tracking, and easy navigation through workout routines.",
+    technology: ["React.js", "Tailwind CSS", "TypeScript", "Vercel"],
+    projectLink: [
+      { name: "GitHub", link: "github.com/Farhadzafar/01_gem-FitTrack" },
+      { name: "Live Site", link: "01-gem-fit-track.vercel.app" },
     ],
   },
 ];

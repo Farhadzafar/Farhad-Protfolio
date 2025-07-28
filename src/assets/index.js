@@ -63,6 +63,11 @@ import project3 from "./project/project3.png";
 import project4 from "./project/project4.png";
 import project5 from "./project/project5.png";
 import project6 from "./project/project6.png";
+import project7 from "./project/project7.png";
+import project8 from "./project/project8.png";
+import project9 from "./project/project9.png";
+import project10 from "./project/project10.png";
+import project20 from "./project/project20.png";
 
 export {
   asus,
@@ -118,4 +123,9 @@ export {
   project4,
   project5,
   project6,
+  project7,
+  project8,
+  project10,
+  project9,
+  project20,
 };
